@@ -56,30 +56,30 @@ ANSI C.
 
 3) Examples
 
-ex1.c: simplest example (hello world). Can also be launched directly
-as a script: './ex1.c'.
+	ex1.c: simplest example (hello world). Can also be launched directly
+	as a script: './ex1.c'.
 
-ex2.c: more complicated example: find a number with the four
-operations given a list of numbers (benchmark).
+	ex2.c: more complicated example: find a number with the four
+	operations given a list of numbers (benchmark).
 
-ex3.c: compute fibonacci numbers (benchmark).
+	ex3.c: compute fibonacci numbers (benchmark).
 
-ex4.c: more complicated: X11 program. Very complicated test in fact
-because standard headers are being used !
+	ex4.c: more complicated: X11 program. Very complicated test in fact
+	because standard headers are being used !
 
-ex5.c: 'hello world' with standard glibc headers.
+	ex5.c: 'hello world' with standard glibc headers.
 
-tcc.c: TCC can of course compile itself. Used to check the code
-generator.
+	tcc.c: TCC can of course compile itself. Used to check the code
+	generator.
 
-tcctest.c: auto test for TCC which tests many subtle possible bugs. Used
-when doing 'make test'.
+	tcctest.c: auto test for TCC which tests many subtle possible bugs. Used
+	when doing 'make test'.
 
 4) Full Documentation
 
-Please read tcc-doc.html to have all the features of TCC.
+	Please read tcc-doc.html to have all the features of TCC.
 
-Additional information is available for the Windows port in tcc-win32.txt.
+	Additional information is available for the Windows port in tcc-win32.txt.
 
 License:
 -------
